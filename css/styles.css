@@ -1,0 +1,36 @@
+body {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.navbar {
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+}
+
+.jumbotron {
+  background-color: #58f48c;
+  display: flex;
+}
+
+.home-jumbotron {
+  margin-top: 0;
+}
+
+.mustard-button {
+  background-color: #dbc246;
+  border: 0;
+}
+
+.buy-mustard-button a:link {
+  text-decoration: none;
+}
+
+.buy-mustard-button a:visited {
+  text-decoration: none;
+}
+
+.buy-mustard-button a:hover {
+  text-decoration: underline;
+}
