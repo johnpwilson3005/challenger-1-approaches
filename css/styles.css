@@ -16,6 +16,7 @@ body {
 
 .home-jumbotron {
   margin-top: 0;
+  margin-bottom: 0;
 }
 
 .mustard-button {
@@ -33,4 +34,35 @@ body {
 
 .buy-mustard-button a:hover {
   text-decoration: underline;
+}
+
+.container-2 {
+  background-color: #ccf7ff;
+  height: 25em;
+}
+
+.h2-smells {
+  margin-bottom: 1em;
+}
+
+
+
+
+
+
+/* SM SCREEN */
+@media (min-width:768px) {
+  .home-jumbotron {
+    min-height: (100vh - 50px);
+  }
+}
+
+/* MD SCREEN */
+@media (min-width:992px) {
+
+}
+
+/* LG SCREEN */
+@media (min-width:1200px) {
+
 }
