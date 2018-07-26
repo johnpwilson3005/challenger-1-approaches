@@ -45,15 +45,40 @@ body {
   margin-bottom: 1em;
 }
 
+.container-3 {
+    display: flex;
+    height: 6em;
+  }
 
 
+.flex-item-a {
+  flex: 2;
+  border: 1px solid black;
+}
 
+.flex-item-b {
+  flex: 1;
+  border: 1px solid black;
+}
 
+.flex-item-c {
+  flex: 1;
+  border: 1px solid black;
+}
 
 /* SM SCREEN */
 @media (min-width:768px) {
   .home-jumbotron {
     min-height: (100vh - 50px);
+  }
+  /* .container-3 {
+    flex-direction: column;
+  } I needed to make this a media query of max and not under minimum*/
+}
+
+@media (max-width:768px) {
+  .container-3 {
+    flex-direction: column;
   }
 }
 
