@@ -47,23 +47,24 @@ body {
 
 .container-3 {
     display: flex;
-    height: 6em;
+    /* height: 20em; */
+    background-color: #42c2f4;
   }
 
 
 .flex-item-a {
   flex: 2;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 .flex-item-b {
   flex: 1;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 .flex-item-c {
   flex: 1;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 /* SM SCREEN */
