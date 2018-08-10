@@ -66,6 +66,8 @@ body {
     display: flex;
     height: 100vh;
     background-color: #42c2f4;
+    padding-top: 30px;
+    padding-bottom: 60px;
   }
 
 
@@ -90,6 +92,12 @@ body {
   background-color: #000000;
   margin: 0;
   justify-content: center;
+}
+
+.container-5 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #F4D03F;
 }
 
 
